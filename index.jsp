@@ -4,9 +4,23 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Cookie</title>
 </head>
 <body>
+
+<div id="contents">
+<p>first  サーブレットを使用してCookieを扱う</p>
+<p>なぜサーブレットなのかはわからない</p>
+<p>second frontで完結する</p>
+
+<textarea class="form-control" id="content" placeholder="メモ" rows="10" onKeyUp="autoSave()" ></textarea>
+
+<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
+
+
+</div>
+
+
 
 </body>
 </html>
