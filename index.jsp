@@ -9,14 +9,33 @@
 <body>
 
 <div id="contents">
-<p>first  サーブレットを使用してCookieを扱う</p>
-<p>なぜサーブレットなのかはわからない</p>
-<p>second frontで完結する</p>
+<p>first  jsでcookieを取得</p>
+<p>second サーブレットでcookieに書き込む</p>
 
+
+<form action="">
+<p>name<input type=text name=cookieName id=cookieName></p>
+<p>value<input type=text name=cookieValue id=cookieValue></p>
+<input type=submit value=submit>
+<input type=reset  value=reset>
+</form>
+
+<script type="text/javascript">
+	console.log("start");
+	var cookies = "hensu"
+	console.log("s" + cookies + "e");
+	cookies = document.cookie;
+	console.log("s" + cookies + "e");
+	
+	console.log("kiroku");
+	document.cookie = 'test2=test2';
+	console.log("end");
+</script>
+
+<!-- 
 <textarea class="form-control" id="content" placeholder="メモ" rows="10" onKeyUp="autoSave()" ></textarea>
-
 <div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
-
+ -->
 
 </div>
 
