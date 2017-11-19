@@ -16,6 +16,7 @@
 <form action="">
 <p>name<input type=text name=cookieName id=cookieName></p>
 <p>value<input type=text name=cookieValue id=cookieValue></p>
+<button type=button name=cookieWrite value=cookieWrite>Cookie書き込み</button>
 <input type=submit value=submit>
 <input type=reset  value=reset>
 </form>
