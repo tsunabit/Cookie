@@ -24,6 +24,9 @@
 	<button type=button name=cookieRead value=cookieRead onclick="readCookie()">Cookie読み込み</button>
 </form>
 
+<!-- cookieの読み込み結果を表示する -->
+<div id="cookieReadResult"></div>
+
 
 <!-- 
 <script type="text/javascript">
