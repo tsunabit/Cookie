@@ -26,14 +26,15 @@ function readCookie() {
 		alert('cookie記録されていません。');
 	}else {
 		var cookiesList = cookies.split(';')
-		var html = '<table border=1><tr><td>key</td><td>value</td></tr>';
+		var html = '<table id="cookieReadResult"><tr><th>key</th><th>value</th></tr>';
 		for(i = 0 ; i < cookiesList.length ; i++){
-			//console.log(cookiesList[i]);
 			var tmp = cookiesList[i].split('=');
+			//cookieの内容を表(key,value)で表示する
 			html += '<tr><td>' + tmp[0] +  '</td><td>' + tmp[1] + '</td></tr>';
 		}
 		html += '</table>';
-		document.getElementById('cookieReadResult').innerHTML = html
+		//cookieの内容をhtmlへ表示
+		document.getElementById('cookieReadResult').innerHTML = '読み込み結果<br>' + html;
 	}
 	
 	//console.log('end');

@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
 <script type="text/javascript" src="js/cookieOpe.js"></script>
 <title>Cookie</title>
 </head>
@@ -25,6 +26,7 @@
 </form>
 
 <!-- cookieの読み込み結果を表示する -->
+<p></p>
 <div id="cookieReadResult"></div>
 
 
