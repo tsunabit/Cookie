@@ -34,7 +34,7 @@ function readCookie() {
 		}
 		html += '</table>';
 		//cookieの内容をhtmlへ表示
-		document.getElementById('cookieReadResult').innerHTML = '読み込み結果<br>' + html;
+		document.getElementById('cookieReadResult').innerHTML = 'cookie読み込み結果<br>' + html;
 	}
 	
 	//console.log('end');

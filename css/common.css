@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+
+/* 全ての要素に適用 */
+* {
+	/* paddingとborderを幅(width)と高さ(height)に含める */
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	font-family: 'YuGothic','meiryo', 'メイリオ', 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', sans-serif !important;
+	/* 行間を調節 */
+	/* line-height: 0.5em; */
+}
+
+/* ページ全体の位置とサイズを指定 */
+#wrap {
+	/* width:960px; */
+	margin:0 auto;
+	width:auto;
+}
+
+
+/* メインとなるコンテンツのスタイル */
+#contents {
+	/* margin:10px 0px 10px 0px; */
+	margin:auto;
+	width:958px;
+	/* height:498px; */
+	height:85vh;
+	/* border:dashed 1px #999; */
+}
+
+

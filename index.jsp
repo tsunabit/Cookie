@@ -4,54 +4,32 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/table.css" media="all">
 <script type="text/javascript" src="js/cookieOpe.js"></script>
 <title>Cookie</title>
 </head>
 <body>
+	<div id="wrap">
 
-<div id="contents">
-<p>first  jsでcookieを取得</p>
-<p>second サーブレットでcookieに書き込む</p>
+		<div id="contents">
+			<!-- <p>first jsでcookieを取得</p>
+			<p>second サーブレットでcookieに書き込む</p> -->
+			<h2>cookie</h2>
 
-<form action="">
-	<p>name<input type=text name=cookieName id=cookieKey></p>
-	<p>value<input type=text name=cookieValue id=cookieValue></p>
-	<p>
-	<button type=button name=cookieWrite value=cookieWrite onclick="writeCookie()">Cookie書き込み</button>
-	<!-- <input type=submit value=submit> -->
-	<input type=reset  value=reset>
-	</p>
-	<button type=button name=cookieRead value=cookieRead onclick="readCookie()">Cookie読み込み</button>
-</form>
+			<form action="">
+				<p>name<input type=text name=cookieName id=cookieKey></p>
+				<p>value<input type=text name=cookieValue id=cookieValue></p>
+				<p><button type=button name=cookieWrite value=cookieWrite onclick="writeCookie()">Cookie書き込み</button>
+					<!-- <input type=submit value=submit> -->
+					<input type=reset value=reset>
+				</p>
+				<button type=button name=cookieRead value=cookieRead onclick="readCookie()">Cookie読み込み</button>
+			</form>
 
-<!-- cookieの読み込み結果を表示する -->
-<p></p>
-<div id="cookieReadResult"></div>
-
-
-<!-- 
-<script type="text/javascript">
-	console.log("start");
-	var cookies = "hensu"
-	console.log("s" + cookies + "e");
-	cookies = document.cookie;
-	console.log("s" + cookies + "e");
-	
-	console.log("kiroku");
-	document.cookie = 'test2=test2';
-	console.log("end");
-</script>
- -->
-
-<!-- 
-<textarea class="form-control" id="content" placeholder="メモ" rows="10" onKeyUp="autoSave()" ></textarea>
-<div style="padding: 10px; margin-bottom: 10px; border: 1px solid #333333; border-radius: 10px;">
- -->
-
-</div>
-
-
-
+			<!-- cookieの読み込み結果を表示する -->
+			<p><div id="cookieReadResult"></div></p>
+		</div>
+	</div>
 </body>
 </html>
