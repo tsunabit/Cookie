@@ -11,7 +11,6 @@
 </head>
 <body>
 	<div id="wrap">
-
 		<div id="contents">
 			<!-- <p>first jsでcookieを取得</p>
 			<p>second サーブレットでcookieに書き込む</p> -->
@@ -24,8 +23,11 @@
 					<!-- <input type=submit value=submit> -->
 					<input type=reset value=reset>
 				</p>
-				<button type=button name=cookieRead value=cookieRead onclick="readCookie()">Cookie読み込み</button>
+				<p><button type=button name=cookieRead value=cookieRead onclick="readCookie()">Cookie読み込み</button>
+				   <!-- <button type=button name=clearReaded value=clearReaded onclick="clearReadedCookie()">Cookie読み込み</button> -->
+				</p>
 			</form>
+			<button type=button name=clearReaded value=clearReaded onclick="clearReadedCookie();">Cookie読み込み結果を非表示にする</button>
 
 			<!-- cookieの読み込み結果を表示する -->
 			<p><div id="cookieReadResult"></div></p>

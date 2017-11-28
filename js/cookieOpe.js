@@ -1,12 +1,11 @@
 /**
  * 
  */
-
 //cookie書き込み
 function writeCookie() {
 	//console.log('start');
-	var key   = document.getElementById('cookieKey').value
-	var value = document.getElementById('cookieValue').value
+	var key   = document.getElementById('cookieKey').value;
+	var value = document.getElementById('cookieValue').value;
 	var cookie = key + '=' + value;
 
 	console.log(cookie);
@@ -14,7 +13,6 @@ function writeCookie() {
 	document.cookie = cookie;
 	//console.log('end');
 }
-
 
 //cookie読み込み
 function readCookie() {
@@ -36,6 +34,15 @@ function readCookie() {
 		//cookieの内容をhtmlへ表示
 		document.getElementById('cookieReadResult').innerHTML = 'cookie読み込み結果<br>' + html;
 	}
-	
 	//console.log('end');
 }
+
+//cookie読み込み結果を非表示にする
+function clearReadedCookie() {
+	console.log('s');
+	//alert('fff');
+	document.getElementById('cookieReadResult').innerHTML = '<p></p>';
+	console.log('e');
+}
+
+
