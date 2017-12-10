@@ -18,6 +18,7 @@ function writeCookie() {
 function readCookie() {
 	//console.log('start');
 	var cookies = '';
+	
 	//cookieの読み込み「return=セミコロンで区切られたkey=valueのリスト」
 	cookies = document.cookie;
 	if (cookies == '') {
@@ -39,10 +40,7 @@ function readCookie() {
 
 //cookie読み込み結果を非表示にする
 function clearReadedCookie() {
-	console.log('s');
-	//alert('fff');
 	document.getElementById('cookieReadResult').innerHTML = '<p></p>';
-	console.log('e');
 }
 
 

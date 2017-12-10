@@ -19,19 +19,26 @@
 			<form action="">
 				<p>name<input type=text name=cookieName id=cookieKey></p>
 				<p>value<input type=text name=cookieValue id=cookieValue></p>
+				
 				<p><button type=button name=cookieWrite value=cookieWrite onclick="writeCookie()">Cookie書き込み</button>
 					<!-- <input type=submit value=submit> -->
 					<input type=reset value=reset>
 				</p>
+				
 				<p><button type=button name=cookieRead value=cookieRead onclick="readCookie()">Cookie読み込み</button>
 				   <!-- <button type=button name=clearReaded value=clearReaded onclick="clearReadedCookie()">Cookie読み込み</button> -->
+				   <button type=button name=clearReaded value=clearReaded onclick="clearReadedCookie();">Cookie読み込み結果を非表示にする</button>
 				</p>
 			</form>
-			<button type=button name=clearReaded value=clearReaded onclick="clearReadedCookie();">Cookie読み込み結果を非表示にする</button>
 
 			<!-- cookieの読み込み結果を表示する -->
 			<p><div id="cookieReadResult"></div></p>
 		</div>
+		<footer>
+			<Hr>
+			<p>2017/11/09 開始</p>
+		</footer>
 	</div>
+	
 </body>
 </html>
