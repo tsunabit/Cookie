@@ -4,6 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- ファビコン追加 -->
+<link rel="icon" href="image/cookieFavicon.png">
 <link rel="stylesheet" type="text/css" href="css/common.css" media="all">
 <link rel="stylesheet" type="text/css" href="css/table.css" media="all">
 <script type="text/javascript" src="js/cookieOpe.js"></script>
